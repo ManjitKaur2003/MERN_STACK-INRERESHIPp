@@ -1,0 +1,38 @@
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #c62a82;
+    background-color: #52c38c;
+}
+
+.static {
+    position: static;
+    border: 1px solid #c62a82;
+    background-color: #52c38c;
+    margin: 10px;
+    height: 100px;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: 1px solid #c62a82;
+    background-color: #52c38c;
+    margin: 10px;
+    height: 100px;
+}
+
+.absolute {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #c62a82;
+}
